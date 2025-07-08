@@ -1,0 +1,91 @@
+{
+  "model": "teste",
+  "environment": {
+    "grid_size": "10",
+    "episodes": "3",
+    "steps": "10"
+  },
+  "population": {
+    "prey_initial_count": "10",
+    "predator_initial_count": "10",
+    "prey_max_count": "102",
+    "predator_max_count": "112",
+    "prey_spawn_rate": "20",
+    "predator_spawn_rate": "10",
+    "prey_step_decay": "11",
+    "predator_step_decay": "11"
+  },
+  "neural_network": {
+    "prey_learning_model": "DQN",
+    "predator_learning_model": "DQN",
+    "prey_design_variant": "None",
+    "predator_design_variant": "None",
+    "prey_offline_communication": "Enabled",
+    "predator_offline_communication": "Enabled"
+  },
+  "simulation_data": [
+    [
+      1,
+      0,
+      12
+    ],
+    [
+      2,
+      0,
+      16
+    ],
+    [
+      3,
+      0,
+      14
+    ]
+  ],
+  "quantitative_data": {
+    "predator": [
+      [
+        684.75,
+        11,
+        5
+      ],
+      [
+        661.833,
+        12,
+        4
+      ],
+      [
+        597.0,
+        10,
+        4
+      ]
+    ],
+    "prey": [
+      [
+        -95.0,
+        0,
+        5
+      ],
+      [
+        -98.0,
+        0,
+        4
+      ],
+      [
+        -61.0,
+        0,
+        4
+      ]
+    ]
+  },
+  "behavior_data": {
+    "predator": {
+      "Prey captured": 33,
+      "Nearby prey": 65,
+      "Exploring map": 16
+    },
+    "prey": {
+      "Predator escape": 0,
+      "Nearby predator": 47,
+      "Exploring map": 0
+    }
+  }
+}

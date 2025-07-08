@@ -1,0 +1,27 @@
+{
+    "model": "bruno",
+    "environment": {
+        "grid_size": "10",
+        "episodes": "2",
+        "steps": "10"
+    },
+    "population": {
+        "prey_initial_count": "20",
+        "predator_initial_count": "5",
+        "prey_max_count": "100",
+        "predator_max_count": "100",
+        "prey_spawn_rate": "20",
+        "predator_spawn_rate": "12",
+        "prey_step_decay": "12",
+        "predator_step_decay": "11"
+    },
+    "neural_network": {
+        "prey_learning_model": "DQN",
+        "predator_learning_model": "DQN",
+        "prey_design_variant": "None",
+        "predator_design_variant": "None",
+        "prey_offline_communication": "Enabled",
+        "predator_offline_communication": "Enabled"
+    },
+    "simulation_data": []
+}

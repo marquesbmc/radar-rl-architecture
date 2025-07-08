@@ -1,0 +1,119 @@
+{
+  "model": "bruno3",
+  "environment": {
+    "grid_size": "20",
+    "episodes": "5",
+    "steps": "10"
+  },
+  "population": {
+    "prey_initial_count": "20",
+    "predator_initial_count": "10",
+    "prey_max_count": "100",
+    "predator_max_count": "100",
+    "prey_spawn_rate": "20",
+    "predator_spawn_rate": "10",
+    "prey_step_decay": "20",
+    "predator_step_decay": "20"
+  },
+  "neural_network": {
+    "prey_learning_model": "DOUBLE",
+    "predator_learning_model": "DQN",
+    "prey_design_variant": "RADAR",
+    "predator_design_variant": "NONE"
+  },
+  "simulation_data": [
+    [
+      1,
+      37,
+      20
+    ],
+    [
+      2,
+      36,
+      22
+    ],
+    [
+      3,
+      32,
+      18
+    ],
+    [
+      4,
+      38,
+      18
+    ],
+    [
+      5,
+      37,
+      20
+    ]
+  ],
+  "quantitative_data": {
+    "predator": [
+      [
+        -317.25,
+        5,
+        9
+      ],
+      [
+        152.417,
+        5,
+        9
+      ],
+      [
+        442.0,
+        3,
+        9
+      ],
+      [
+        384.0,
+        4,
+        9
+      ],
+      [
+        828.0,
+        9,
+        9
+      ]
+    ],
+    "prey": [
+      [
+        -234.0,
+        3,
+        9
+      ],
+      [
+        32.833,
+        7,
+        9
+      ],
+      [
+        -108.0,
+        5,
+        9
+      ],
+      [
+        -331.667,
+        3,
+        9
+      ],
+      [
+        -386.833,
+        1,
+        9
+      ]
+    ]
+  },
+  "behavior_data": {
+    "predator": {
+      "Prey captured": 26,
+      "Nearby prey": 433,
+      "Exploring map": 34
+    },
+    "prey": {
+      "Predator escape": 19,
+      "Nearby predator": 636,
+      "Exploring map": 156
+    }
+  }
+}

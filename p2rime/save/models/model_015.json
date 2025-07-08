@@ -1,0 +1,194 @@
+{
+  "model": "model_015",
+  "environment": {
+    "grid_size": "20",
+    "episodes": "10",
+    "steps": "20"
+  },
+  "population": {
+    "prey_initial_count": "20",
+    "predator_initial_count": "10",
+    "prey_max_count": "1000",
+    "predator_max_count": "1000",
+    "prey_spawn_rate": "80",
+    "predator_spawn_rate": "30",
+    "prey_step_decay": "60",
+    "predator_step_decay": "50"
+  },
+  "neural_network": {
+    "prey_learning_model": "DOUBLE",
+    "predator_learning_model": "DOUBLE",
+    "prey_design_variant": "RADAR",
+    "predator_design_variant": "RADAR"
+  },
+  "simulation_data": [
+    [
+      1,
+      24,
+      25
+    ],
+    [
+      2,
+      35,
+      26
+    ],
+    [
+      3,
+      29,
+      20
+    ],
+    [
+      4,
+      29,
+      29
+    ],
+    [
+      5,
+      22,
+      30
+    ],
+    [
+      6,
+      23,
+      23
+    ],
+    [
+      7,
+      36,
+      30
+    ],
+    [
+      8,
+      33,
+      28
+    ],
+    [
+      9,
+      23,
+      26
+    ],
+    [
+      10,
+      31,
+      28
+    ]
+  ],
+  "quantitative_data": {
+    "predator": [
+      [
+        -2271.75,
+        24,
+        19
+      ],
+      [
+        -1344.5,
+        27,
+        19
+      ],
+      [
+        -5309.333,
+        11,
+        19
+      ],
+      [
+        -1719.083,
+        24,
+        19
+      ],
+      [
+        -254.833,
+        32,
+        19
+      ],
+      [
+        -2011.333,
+        25,
+        19
+      ],
+      [
+        -4020.25,
+        21,
+        19
+      ],
+      [
+        -2985.833,
+        19,
+        19
+      ],
+      [
+        -932.083,
+        20,
+        19
+      ],
+      [
+        -3144.833,
+        13,
+        19
+      ]
+    ],
+    "prey": [
+      [
+        -145.667,
+        9,
+        19
+      ],
+      [
+        -623.5,
+        2,
+        19
+      ],
+      [
+        -140.5,
+        7,
+        19
+      ],
+      [
+        -537.333,
+        3,
+        19
+      ],
+      [
+        -841.667,
+        0,
+        19
+      ],
+      [
+        -352.667,
+        4,
+        19
+      ],
+      [
+        -648.333,
+        3,
+        19
+      ],
+      [
+        -361.833,
+        4,
+        19
+      ],
+      [
+        -420.0,
+        4,
+        19
+      ],
+      [
+        -130.0,
+        9,
+        19
+      ]
+    ]
+  },
+  "behavior_data": {
+    "predator": {
+      "Prey captured": 216,
+      "Nearby prey": 1413,
+      "Exploring map": 324
+    },
+    "prey": {
+      "Predator escape": 45,
+      "Nearby predator": 2166,
+      "Exploring map": 379
+    }
+  }
+}
